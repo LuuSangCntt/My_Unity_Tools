@@ -2,4 +2,8 @@ Thêm , sửa nội dung
 
 Tiếp tục them nội dung
 
+
 Sửa file từ project t2
+
+Thêm nội dung từ file 1
+(đã hợp nhất cả 2 thay đồi)
