@@ -18,8 +18,8 @@ namespace S_Tools
                 var now = DateTime.Now;
                 //Tên file log
                 Filename = Filename + "_" + now.Year + "_" + now.Month + "_" + now.Day + "_" + now.Hour + "_" + now.Minute + "_" + now.Second + ".txt";
-                //string directory = Path.Combine(Application.persistentDataPath, "LogFiles");
-                string directory = Path.Combine(Application.streamingAssetsPath, "LogFiles");
+                string directory = Path.Combine(Application.persistentDataPath, "LogFiles");
+                //string directory = Path.Combine(Application.streamingAssetsPath, "LogFiles");
                 Directory.CreateDirectory(directory);
                 path = Path.Combine(directory, Filename);
                 System.IO.File.AppendAllText(path, "\n" + "========================================================" + DateTime.Now.ToString() + "\n");
