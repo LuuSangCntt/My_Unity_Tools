@@ -16,6 +16,7 @@ namespace S_Tools
             try
             {
                 var now = DateTime.Now;
+                //Tên file log
                 Filename = Filename + "_" + now.Year + "_" + now.Month + "_" + now.Day + "_" + now.Hour + "_" + now.Minute + "_" + now.Second + ".txt";
                 //string directory = Path.Combine(Application.persistentDataPath, "LogFiles");
                 string directory = Path.Combine(Application.streamingAssetsPath, "LogFiles");
